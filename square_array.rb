@@ -15,6 +15,7 @@
 # end
 
 def square_array(array)
-  array.collect { |ele| ele*ele } 
+  array.collect do |ele| 
+   puts ele*ele
   
 end
