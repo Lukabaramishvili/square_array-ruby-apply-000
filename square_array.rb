@@ -15,6 +15,6 @@
 # end
 
 def square_array(array)
-  return square_array.each.collect { |ele| ele*ele}
+  return array.each.collect { |ele| ele*ele}
  
 end
