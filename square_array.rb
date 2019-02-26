@@ -13,3 +13,6 @@ end
 #   end
 #   return new_array
 # end
+
+def square_array(array)
+  array.each { |ele|e
